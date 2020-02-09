@@ -1,0 +1,11 @@
+@import "./scss/variables.scss";
+
+html {
+  font-family: $font;
+  width: 100vw;
+}
+
+body {
+  margin: 0;
+  background-color: $bgColor;
+}

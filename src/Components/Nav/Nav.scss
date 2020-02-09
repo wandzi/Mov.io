@@ -1,0 +1,41 @@
+@import "../../scss/variables.scss";
+
+.nav {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color: $bgColor;
+    color: $primaryColor;
+    .logo {
+        display: flex;
+        flex-direction: row;
+        i {
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            font-size: 1.8rem;
+            padding: 5px;
+        }
+        h1 {
+            font-size: 1.3rem;
+        }
+    }  
+    .search-box {
+        input[type="text"] {
+            font-family: Raleway, sans-serif;
+            font-size: 0.8rem;
+            font-weight: bold;
+            background-color: $bgColor;
+            width: 100px;
+            height: 20px;
+            padding: 5px 40px 5px 10px;
+            border: solid 1px $primaryColor;
+            border-radius: 15px;
+            outline: none;
+            }
+        .fa-search {
+            color: $primaryColor;
+            margin: 5px;
+        }
+    }
+}
