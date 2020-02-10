@@ -1,0 +1,15 @@
+@import "../../scss/variables.scss";
+
+.movie {
+    width: 98vw;
+    height: 25vh;
+    margin-bottom: 10px;
+    border-radius: 10px;
+    background-color: $MovieBgColor;
+    img {
+        height: 100%;
+        border-top-left-radius: 10px;
+        border-bottom-left-radius: 10px;
+        border-right: 1px solid $secondaryColor;
+    }
+}
