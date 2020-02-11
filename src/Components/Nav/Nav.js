@@ -6,7 +6,7 @@ const Nav = () => {
         <nav className="nav">
             <div className="logo">
                 <i class="fas fa-film"></i>
-                <h1>Search.io</h1>
+                <h1>Mov.io</h1>
             </div>
             <div className="search-box">
                 <input type="text"></input>

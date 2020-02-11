@@ -6,7 +6,7 @@ import Controls from './Components/Controls/Controls';
 
 function App() {
   return (
-    <div className='App'>
+    <div className='app'>
       <Nav />
       <Movies />
       <Controls />
