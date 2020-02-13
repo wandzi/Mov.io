@@ -1,5 +1,5 @@
 ## Live
-Visit - https://wandzi.github.io/search.io/
+Visit - https://wandzi.github.io/mov.io/
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
